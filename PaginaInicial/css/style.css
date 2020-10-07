@@ -1,0 +1,48 @@
+@charset "UTF-8";
+img#cantosupdunb-img {
+    width: 50px;
+}
+
+img#cantosupducb-img {
+    width: 50px;
+    height: 26px;
+}
+
+section#menulateral {
+    width: 1900px;
+}
+
+body{
+    background-image: linear-gradient(#a6b8e9,white)
+}
+
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+div.body-dados, div.body-notas, div.body-endereço{
+    text-align:center;
+    left: 25%;
+    position: absolute;
+}
+
+a.list-group-item-light{
+    background-color:rgb(255,255,255,0.5);
+}
+
+h1#titulo-menu{
+    font-family:Muli;
+    color:#2a3655;
+}
+
+td.tr-disciplinas{
+    height: 50px;
+	line-height: 50px;
+	white-space: nowrap;
+}
+
+div.section-notas{
+    right: 0%;
+    position: absolute;
+}

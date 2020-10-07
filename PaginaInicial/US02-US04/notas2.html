@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="shortcut icon" href="./img/sae.jfif">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header id="header1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html"> SAE </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Bem-vindo ao Sistema de Apoio Educacional</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sair</a>
+                        </li>
+                    </ul>
+                    <img id="cantosupdunb-img" src="./img/unb.png" alt="Logo da Universidade de Brasília"/>
+                    <img id="cantosupducb-img" src="./img/ucb.png" alt="Logo da Universidade Católica de Brasília"/>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section id="menulateral" class="row">
+        <div class="list-group">
+            <a id="list-ajuda" href="#" class="list-group-item list-group-item-action list-group-item-light">Ajuda</a>
+            <a id="list-correcoes" href="#" class="list-group-item list-group-item-action list-group-item-light">Correções</a>
+            <a id="list-dados" href="./dados.html" class="list-group-item list-group-item-action list-group-item-light">Dados</a>
+            <a id="list-endereco" href="./endereço.html" class="list-group-item list-group-item-action list-group-item-light">Endereço</a>
+            <a id="list-hist" href="#" class="list-group-item list-group-item-action list-group-item-light">Histórico</a>
+            <a id="list-listas" href="#" class="list-group-item list-group-item-action list-group-item-light">Listas</a>
+            <a id="list-monitoria" href="#" class="list-group-item list-group-item-action list-group-item-light">Monitoria</a>
+            <a id="list-notas" href="./notas.html" class="list-group-item list-group-item-action list-group-item-light">Notas</a>
+            <a id="list-orient" href="#" class="list-group-item list-group-item-action list-group-item-light">Orientação</a>
+            <a id="list-questoes" href="#" class="list-group-item list-group-item-action list-group-item-light">Questões</a>
+            <a id="list-senha" href="#" class="list-group-item list-group-item-action list-group-item-light">Senha</a>
+            <a id="list-situacao" href="#" class="list-group-item list-group-item-action list-group-item-light">Situação</a>
+            <a id="list-teste" href="#" class="list-group-item list-group-item-action list-group-item-light">Teste</a>
+        </div>
+    <aside id="sec">
+        <br>
+        <div class="section-notas">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./notas.html">Turmas</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Desenvolvimento de Software</li>
+                 </ol>
+            </nav>
+        </div>  
+        <div class="body-notas">
+            <br>
+            <h1 id="titulo-menu"><strong>Atividades do Aluno</strong></h1> <br>
+            
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Atividade</th>
+                    <th scope="col">Nota</th>
+                    <th scope="col">Peso (%)</th>
+                    <th scope="col">Valor na Média</th>
+                    <th scope="col">Média da Turma</th>
+                    <th scope="col">Número de Alunos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Prova Virtual 1</td>
+                    <td>8.0</td>
+                    <td>6.0</td>
+                    <td>0.5</td>
+                    <td>6.12</td>
+                    <td>25</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+          </aside>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
