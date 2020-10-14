@@ -46,3 +46,9 @@ div.section-notas{
     right: 0%;
     position: absolute;
 }
+
+.jumbotron-fluid{
+    text-align:center;
+    left: 40%;
+    position: absolute;
+}
