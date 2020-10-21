@@ -21,7 +21,7 @@ form{
     color: black;
 }
 
-div.body-dados, div.body-notas, div.body-endereço{
+div.body-dados, div.body-notas, div.body-endereço, div.body-listas, div.body-correcao{
     text-align:center;
     left: 25%;
     position: absolute;
@@ -42,7 +42,7 @@ td.tr-disciplinas{
 	white-space: nowrap;
 }
 
-div.section-notas{
+div.section-notas, div.section-listas, div.section-correcoes{
     right: 0%;
     position: absolute;
 }
@@ -50,5 +50,11 @@ div.section-notas{
 .jumbotron-fluid{
     text-align:center;
     left: 40%;
+    position: absolute;
+}
+
+#form-quest{
+    text-align:center;
+    left: 45%;
     position: absolute;
 }
